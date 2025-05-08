@@ -1,0 +1,10 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    /* background: black; */
+}
+
+.active{
+    background-color: #B4F461;
+    color: black;
+    font-weight: bold;
+}
