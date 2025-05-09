@@ -8,3 +8,7 @@ body {
     color: black;
     font-weight: bold;
 }
+
+.show{
+    display: block;
+}
