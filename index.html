@@ -29,7 +29,7 @@
         <!-- Amount -->
         <div class="flex justify-center items-center gap-2 font-medium text-[12px] md:text-[20px]">
             <img src="assets/coin.png" alt="">
-            <h2 class="text-[rgba(17,17,17,0.7)]">5500 BDT</h2>
+            <h2 class="text-[rgba(17,17,17,0.7)]"><span id="our_amount">5500</span> BDT</h2>
         </div>
         
         </div>
@@ -62,12 +62,12 @@
              <!--\\\\\\\\\\\\\text/////////////////////// -->
               <div class=" lg:w-[500px]">
                 <!-- donate amount -->
-                 <div class="flex justify-center items-center gap-2 bg-[rgba(17,17,17,0.1)] px-4 py-3 rounded-xl w-32">
+                 <div class="inline-flex justify-start items-center gap-2 bg-[rgba(17,17,17,0.1)] px-4 py-3 rounded-xl">
                     <!-- img -->
                      <div><img src="assets/coin.png" alt=""></div>
                      <!-- amount -->
                       <div class="text-[rgba(17,17,17,0.7)]">
-                        200 BD
+                       <span id="noakhali_amount">200</span> BDT
                       </div>
                  </div>
                  <!-- title -->
@@ -79,6 +79,10 @@
                     <button id="Show_popup" type="submit" class="btn w-full font-bold bg-[#B4F461]">Donate Now</button>
                  </form>
               </div>
+           </div>
+
+           <div id="post_container">
+
            </div>
     </main>
 
