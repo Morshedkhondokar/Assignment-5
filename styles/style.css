@@ -12,3 +12,7 @@ body {
 .show{
     display: block;
 }
+
+.remove_display{
+    display: none;
+}
