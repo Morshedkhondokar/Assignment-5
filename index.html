@@ -86,7 +86,7 @@
       <div id="card-contaier" class="m-3">
         <!--? first csrd -->
       <div
-        class="flex flex-col lg:flex-row gap-4 p-8 border rounded-xl border-[rgba(17,17,17,0.2)] mb-8"
+        class="flex flex-col lg:flex-row gap-4 p-6 border rounded-xl border-[rgba(17,17,17,0.2)] mb-8"
       >
         <!-- imsge -->
         <div class="mb-3">
@@ -128,7 +128,111 @@
               required
             />
             <button
-              id="Show_popup"
+              id="noakhali_Show_popup"
+              type="submit"
+              class="btn w-full font-bold bg-[#B4F461] disabled:opacity-50"
+            >
+              Donate Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+        <!--?? second csrd -->
+      <div
+        class="flex flex-col lg:flex-row gap-4 p-6 border rounded-xl border-[rgba(17,17,17,0.2)] mb-8"
+      >
+        <!-- imsge -->
+        <div class="mb-3">
+          <img class="md:w-full" src="assets/feni.png" alt="" />
+        </div>
+
+        <!--\\\\\\\\\\\\\text/////////////////////// -->
+        <div class="lg:w-[500px]">
+          <!-- donate amount -->
+          <div
+            class="inline-flex justify-start items-center gap-2 bg-[rgba(17,17,17,0.1)] px-4 py-3 rounded-xl"
+          >
+            <!-- img -->
+            <div><img src="assets/coin.png" alt="" /></div>
+            <!-- amount -->
+            <div class="text-[rgba(17,17,17,0.7)]">
+              <!-- ! here -->
+              <span id="feni_amount">600</span> BDT
+            </div>
+          </div>
+          <!-- title -->
+          <h3 class="font-bold my-4">
+            Donate for Flood Relief in Feni,Bangladesh
+          </h3>
+
+          <p class="text-[rgba(17,17,17,0.7)]">
+            The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
+          </p>
+          <!-- ! here -->
+          <form id="feni-form">
+            <!-- ! here -->
+            <input
+              id="donation_input_feni"
+              class="w-full p-4 rounded-xl outline-none border border-[rgba(17,17,17,0.1)] my-4"
+              type="text"
+              placeholder="Write Donation Amount"
+              required
+            />
+            <button
+              id="feni_Show_popup"
+              type="submit"
+              class="btn w-full font-bold bg-[#B4F461] disabled:opacity-50"
+            >
+              Donate Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+        <!--??? third csrd -->
+      <div
+        class="flex flex-col lg:flex-row gap-4 p-6 border rounded-xl border-[rgba(17,17,17,0.2)] mb-8"
+      >
+        <!-- imsge -->
+        <div class="mb-3">
+          <img class="md:w-full" src="assets/quota-protest.png" alt="" />
+        </div>
+
+        <!--\\\\\\\\\\\\\text/////////////////////// -->
+        <div class="lg:w-[500px]">
+          <!-- donate amount -->
+          <div
+            class="inline-flex justify-start items-center gap-2 bg-[rgba(17,17,17,0.1)] px-4 py-3 rounded-xl"
+          >
+            <!-- img -->
+            <div><img src="assets/coin.png" alt="" /></div>
+            <!-- amount -->
+            <div class="text-[rgba(17,17,17,0.7)]">
+              <!-- ! here -->
+              <span id="quota_amount">2400</span> BDT
+            </div>
+          </div>
+          <!-- title -->
+          <h3 class="font-bold my-4">
+            Aid for Injured in the Quota Movement
+          </h3>
+
+          <p class="text-[rgba(17,17,17,0.7)]">
+            The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
+          </p>
+          <!-- ! here -->
+          <form id="quota-form">
+            <!-- ! here -->
+            <input
+              id="donation_input_quota"
+              class="w-full p-4 rounded-xl outline-none border border-[rgba(17,17,17,0.1)] my-4"
+              type="text"
+              placeholder="Write Donation Amount"
+              required
+            />
+            <button
+              id="quota_Show_popup"
               type="submit"
               class="btn w-full font-bold bg-[#B4F461] disabled:opacity-50"
             >
